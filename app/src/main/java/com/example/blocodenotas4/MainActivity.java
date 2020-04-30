@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
 
-
             public void onClick(View view) {
+
                 //Chamada do metodo para salvar o conteúdo
                 notas.salvaNota(editText.getText().toString());
             }

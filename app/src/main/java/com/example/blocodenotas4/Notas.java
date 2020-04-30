@@ -26,7 +26,7 @@ public class Notas {
 
     public String recuperaNota() {
         if (this.preferencias.contains("Notas")) {
-            String s = "";//context.getResources().getString(R.string.nota_recuperada);
+            String s = ""; //context.getResources().getString(R.string.nota_recuperada);
             Toast.makeText(context, s, Toast.LENGTH_LONG).show();
             return this.preferencias.getString("Notas", " ");
         } else {
