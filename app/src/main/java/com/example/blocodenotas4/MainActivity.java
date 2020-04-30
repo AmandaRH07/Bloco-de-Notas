@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    protected void onPause() {
-        super.onPause();
-        notas.salvaNota(editText.getText().toString());
-    }
+   // protected void onPause() {
+      //  super.onPause();
+        //notas.salvaNota(editText.getText().toString());
+   // }
 }
